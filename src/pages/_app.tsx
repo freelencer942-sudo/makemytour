@@ -6,8 +6,7 @@ import { Provider } from "react-redux";
 import Navbar from "@/components/Navbar";
 
 import { useEffect } from "react";
-import Footer from "@/components/Fotter";
-
+import Footer from "@/components/Footer";
 const Myapp = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {
     const storeduser = localStorage.getItem("user");
